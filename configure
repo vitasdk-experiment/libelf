@@ -1595,7 +1595,7 @@ if eval "test \"`echo '$''{'ac_cv_sizeof_long_long'+set}'`\" = set"; then
   echo $ac_n "(cached) $ac_c" 1>&6
 else
   if test "$cross_compiling" = yes; then
-  ac_cv_sizeof_long_long=0
+  ac_cv_sizeof_long_long=8
 else
   cat > conftest.$ac_ext <<EOF
 #line 1602 "configure"
